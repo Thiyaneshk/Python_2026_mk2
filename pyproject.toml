@@ -1,0 +1,71 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "python-2026-mk1"
+version = "0.1.0"
+description = "Stock Portfolio Tracking & Analysis App"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+license = {text = "MIT"}
+# [project]
+# name = "sandbox"
+# version = "0.1.0"
+# description = "Add your description here"
+# readme = "README.md"
+# requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2.3",
+    "plotly>=5.24.1",
+    # "streamlit>=1.39.0",
+    "statsmodels>=0.14.0",
+    "requests>=2.31.0",
+    "streamlit-lottie>=0.0.3" ,
+    "pyodbc>=5.1.0",
+    "sqlalchemy>=2.0.0",
+    "streamlit-folium>=0.18.0",
+    "folium>=0.16.0",
+    "geopandas>=0.19.0",
+    "seaborn>=0.13.2",
+    "yfinance>=0.2.27",
+    "financedatabase>=1.2.5",
+    "streamlit-extras<=0.7.8",
+    "pandas_ta>=0.3.14",
+    "numpy>=1.26.4",
+    "TA-lib>=0.4.27",
+    "streamlit>=1.40.0",
+    # "pandas>=2.2.0",
+    # "numpy>=1.26.0",
+    # "yfinance>=0.2.41",
+    # "plotly>=5.18.0",
+    "ta>=0.10.2",
+    "python-dotenv>=1.0.0",
+    # "streamlit-lottie>=0.0.5",
+] 
+
+
+[project.urls]
+Repository = "https://github.com/Thiyaneshk/Python_2026_mk1"
+Issues = "https://github.com/Thiyaneshk/Python_2026_mk1/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app", "data", "assets"]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = ["E", "F", "W", "I"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
