@@ -1,0 +1,122 @@
+[
+  {
+    "ticker": "GHCLTEXTIL",
+    "shares": 250,
+    "buy_price": 109.86,
+    "asset_type": "EQUITY"
+  },
+  {
+    "ticker": "GOLDBEES",
+    "shares": 59,
+    "buy_price": 106.81,
+    "asset_type": "EQUITY"
+  },
+  {
+    "ticker": "HAPPSTMNDS",
+    "shares": 1804,
+    "buy_price": 762.19,
+    "asset_type": "EQUITY"
+  },
+  {
+    "ticker": "HDFCBANK",
+    "shares": 2200,
+    "buy_price": 753.5,
+    "asset_type": "EQUITY"
+  },
+  {
+    "ticker": "HINDUNILVR",
+    "shares": 4,
+    "buy_price": 2386.9,
+    "asset_type": "EQUITY"
+  },
+  {
+    "ticker": "ITC",
+    "shares": 2200,
+    "buy_price": 396.08,
+    "asset_type": "EQUITY"
+  },
+  {
+    "ticker": "JUNIORBEES",
+    "shares": 6,
+    "buy_price": 742.24,
+    "asset_type": "EQUITY"
+  },
+  {
+    "ticker": "LICI",
+    "shares": 251,
+    "buy_price": 707.8,
+    "asset_type": "EQUITY"
+  },
+  {
+    "ticker": "LIQUIDBEES",
+    "shares": 510,
+    "buy_price": 991.01,
+    "asset_type": "EQUITY"
+  },
+  {
+    "ticker": "LUPIN",
+    "shares": 800,
+    "buy_price": 1190.21,
+    "asset_type": "EQUITY"
+  },
+  {
+    "ticker": "NIFTYBEES",
+    "shares": 69,
+    "buy_price": 295.46,
+    "asset_type": "EQUITY"
+  },
+  {
+    "ticker": "PGINVIT-IV",
+    "shares": 8000,
+    "buy_price": 94.5,
+    "asset_type": "EQUITY"
+  },
+  {
+    "ticker": "RELIANCE",
+    "shares": 234,
+    "buy_price": 1289.38,
+    "asset_type": "EQUITY"
+  },
+  {
+    "ticker": "SGBD29VIII-GB",
+    "shares": 21,
+    "buy_price": 4715.05,
+    "asset_type": "SGB"
+  },
+  {
+    "ticker": "SGBJAN29IX-GB",
+    "shares": 4,
+    "buy_price": 4950.0,
+    "asset_type": "SGB"
+  },
+  {
+    "ticker": "SGBMAY29I",
+    "shares": 70,
+    "buy_price": 4701.87,
+    "asset_type": "SGB"
+  },
+  {
+    "ticker": "SGBOCT27VI-GB",
+    "shares": 40,
+    "buy_price": 4089.25,
+    "asset_type": "SGB"
+  },
+  {
+    "ticker": "SGBSEP31II-GB",
+    "shares": 34,
+    "buy_price": 5873.0,
+    "asset_type": "SGB"
+  },
+  {
+    "ticker": "SILVERBEES",
+    "shares": 18,
+    "buy_price": 188.16,
+    "asset_type": "EQUITY"
+  },
+  {
+    "ticker": "TATVA",
+    "shares": 13,
+    "buy_price": 1083.0,
+    "asset_type": "EQUITY"
+  }
+]
