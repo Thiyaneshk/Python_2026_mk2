@@ -221,7 +221,7 @@ with tab1:
             sgbs = len(holdings_df[holdings_df['asset_type'] == 'SGB'])
             st.info(f"🔍 {sgbs} SGBs detected (tracked vs gold)")
             
-            if st.button("💾 Save Portfolio", type="primary", use_container_width=True):
+            if st.button("💾 Save Portfolio", type="primary", width='stretch'):
                 count = save_portfolio(holdings_df)
                 st.success(f"✅ Saved {count} holdings!")
                 st.balloons()
@@ -458,7 +458,7 @@ with tab3:
                     height=500,
                     showlegend=False
                 )
-                st.plotly_chart(fig, use_container_width=True)
+                st.plotly_chart(fig, width='stretch')
 
                 
             else:
